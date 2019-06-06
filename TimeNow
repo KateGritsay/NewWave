@@ -1,8 +1,11 @@
 package main
 
-  import "fmt"
-  import "time"
+import "fmt"
+import "time"
 
-func main () {
-    fmt.PrintLn (time. Now(). Format(time.RFS850))
-    }
+func main() {
+
+   fmt.Println("What time is it?")
+   fmt.Printf(time.Now().Format(time.Kitchen))
+
+}
